@@ -57,7 +57,7 @@ def send_packets(ip, port, rate_limit, is_ipv6=False):
     finally:
         sock.close()
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     get_current_time()  # Optional: Get current time
 
     # User input
@@ -67,3 +67,4 @@ if __name__ == "__main__":
 
     # Start sending packets
     send_packets(target_ip, target_port, rate_limit, is_ipv6)
+
